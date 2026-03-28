@@ -1,0 +1,45 @@
+body {
+    background-color: #f8f9fa;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200703/pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image_340649.jpg");
+    background-size: cover;
+}
+
+#display {
+    height: 60px;
+    font-size: 24px;
+    text-align: right;
+    padding-right: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button {
+    margin: 5px 0;
+    font-size: 18px;
+    background-color: bisque;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    margin-top: 100px;
+}
+
+.card {
+    background-color: palevioletred;
+    width: 300px;
+}
+
+.btn-warning, .btn-success {
+    color: #fff;
+}
+.card-body{
+    background-color: pink;
+}
